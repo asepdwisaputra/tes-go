@@ -18,13 +18,13 @@ func romanToInt(s string) int {
 	if len(s) == 0 {
 		return 0
 	}
-	first := decode[s[0]]
+	first := decode[s[0]] // decode[karakter index 0 di string s]
 	if len(s) == 1 {
 		return first
 	}
 
-	next := decode[s[1]]
-	if next > first { // IV
+	next := decode[s[1]] // ambil karakter index 1 di string, lalu menentukan nilai var decode
+	if next > first {    // IV
 		return (next - first) + romanToInt(s[2:])
 	}
 	return first + romanToInt(s[1:])
