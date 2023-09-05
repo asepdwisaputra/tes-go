@@ -22,7 +22,9 @@ func primeNumber(number int) bool {
 		return false
 	}
 	// 5,7 = 35
-	for i := 3; i*i <= number; i += 2 {
+	for i := 3; i*i <= number; i += 2 { //harus pake =
+		// karena jika i*i < number -- untuk nilai primeNumber(9)
+		// i+=2 menyingkat angka genap
 		if number%i == 0 {
 			return false
 		}
