@@ -27,6 +27,7 @@ func longestCommonPrefix(strs []string) string {
 		flo
 	*/
 	for i := range strs[0] {
+		//fmt.Println(strs[0])
 		if strs[0][i] != strs[l-1][i] {
 			return strs[0][:i]
 			// DIBACA!!!
@@ -40,12 +41,8 @@ func longestCommonPrefix(strs []string) string {
 }
 
 func main() {
-	strs := []string{"flow", "flor"}
+	strs := []string{"flower", "flow"}
 	fmt.Println(longestCommonPrefix(strs)) //  flo => kesamaan
 
-	// strs2 := []string{"flow", "flor", "flare", "flan", "flix", "floor"}
-	// fmt.Println(longestCommonPrefix(strs2)) // fl
-
-	// strs3 := []string{"flow", "flor", "fix", "fidio", "fan", "fans", "fuyoo"}
-	// fmt.Println(longestCommonPrefix(strs3)) //f
+	// Kode ini memiliki kekurangan: hanya bisa membandingkan 2 nila string(awal-akhir)
 }

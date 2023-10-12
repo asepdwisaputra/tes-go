@@ -29,7 +29,7 @@ func intToRoman(num int) string {
 
 	//fmt.Println("!", encode)
 	for _, symbol := range encode {
-		//fmt.Println(symbol)
+		fmt.Println(symbol)
 		for num >= symbol.Value {
 			result.WriteString(symbol.Symbol)
 			num -= symbol.Value
