@@ -41,4 +41,4 @@ Anda dapat menjelajahi repositori ini dengan cara berikut:
 
 Saya kurang mengerti terkait [Lisensi MIT](LICENSE) namun pada intinya, Kamu diperbolehkan untuk menggunakan, mengubah, dan berbagi kode ini(harus untuk hal positif ygy👌).
 
-Terima kasih telah mengunjungi repositori ini, dan semoga jawaban-jawaban coding challenge di sini membantu Kmau dalam perjalanan pemrograman Anda!
+Terima kasih telah mengunjungi repositori ini, dan semoga jawaban-jawaban coding challenge di sini membantu Kamu dalam perjalanan pemrograman Kamu!
